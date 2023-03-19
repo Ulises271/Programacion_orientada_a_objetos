@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class tarea_gato4 {
+public class tarea_gato5 {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         System.out.println(
@@ -15,7 +15,7 @@ public class tarea_gato4 {
         for (int i = 0; i < 9; i++) {
             char simbolos = Letras.charAt(i);
             if (simbolos != 'X' && simbolos != 'O' && simbolos != '_') {
-                System.out.println("el programa solo acepta los siguientes simbolos: 'x, o _' ");
+                System.out.println("el programa solo acepta los siguientes simbolos: 'X, O _' ");
                 return;
 
             }
@@ -32,11 +32,11 @@ public class tarea_gato4 {
         String val8 = apartados[7];
         String val9 = apartados[8];
 
-        System.out.println("- - -");
-        System.out.println("|" + val1 + val2 + val3 + "|");
-        System.out.println("|" + val4 + val5 + val6 + "|");
-        System.out.println("|" + val7 + val8 + val9 + "|");
-        System.out.println("- - - ");
+        System.out.println(" - - - -");
+        System.out.println("| " + val1 + " " + val2 + " " + val3 + " |");
+        System.out.println("| " + val4 + " " + val5 + " " + val6 + " |");
+        System.out.println("| " + val7 + " " + val8 + " " + val9 + " |");
+        System.out.println(" - - - - ");
 
     }
 
